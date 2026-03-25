@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply m-0 bg-platinum font-body text-slate-900 antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-heading;
+  }
+}
+
+@layer components {
+  .panel {
+    @apply rounded-3xl border border-white/60 bg-white/70 shadow-luxe backdrop-blur-sm;
+  }
+
+  .field {
+    @apply w-full rounded-xl border border-slate-300/80 bg-white px-4 py-3 text-sm text-slate-800 outline-none transition focus:border-deepblue focus:ring-2 focus:ring-deepblue/20;
+  }
+}
