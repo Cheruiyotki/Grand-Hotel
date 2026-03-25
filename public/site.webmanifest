@@ -1,0 +1,16 @@
+{
+  "name": "Aurelia Grand Hotel",
+  "short_name": "Aurelia Grand",
+  "description": "Luxury hotel in Nairobi with premium suites, concierge services, and spa experiences.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#E5E4E2",
+  "theme_color": "#1B263B",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
